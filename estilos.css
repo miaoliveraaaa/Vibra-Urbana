@@ -1,6 +1,6 @@
 body {
   font-family: 'Arial', sans-serif;
-  background-color: #f7f7f7;
+  background: linear-gradient(to bottom, #fbe5e5, #f8e9f0);
   color: #333;
   margin: 0;
   padding: 0;
@@ -17,40 +17,68 @@ nav a {
   margin: 0 10px;
   text-decoration: none;
   color: #ff80ab;
+  font-weight: bold;
 }
 
 nav a:hover {
   text-decoration: underline;
 }
 
-main {
-  padding: 20px;
+.hero {
+  background-image: url('https://via.placeholder.com/1200x400/ffb6c1/000000?text=Vibra+Urbana');
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  color: white;
+  padding: 100px 20px;
+}
+
+.hero h2 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+button {
+  background-color: #fff;
+  color: #d4145a;
+  border: 2px solid #d4145a;
+  padding: 10px 20px;
+  border-radius: 30px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: #d4145a;
+  color: white;
+}
+
+.bloque {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.pastel1 {
+  background-color: #ffe5ec;
+}
+
+.pastel2 {
+  background-color: #e0f7fa;
+}
+
+.pastel3 {
+  background-color: #f3e5f5;
 }
 
 footer {
   background-color: #111;
   color: white;
   text-align: center;
-  padding: 10px;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-}
-
-form input, form textarea {
-  width: 100%;
-  margin: 10px 0;
-  padding: 8px;
-}
-
-button {
-  background-color: #ff80ab;
-  border: none;
-  color: white;
-  padding: 10px;
-  cursor: pointer;
-}
-
-button:hover {
-  background-color: #e91e63;
+  padding: 15px;
 }
